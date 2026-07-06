@@ -1,0 +1,12 @@
+﻿# DFT-parameter-recommendation v1.0.0
+# Core dependencies
+urllib3>=1.26.0
+# No external API wrappers needed - uses standard library
+# urllib.request / json for OpenAlex / Crossref API calls
+
+# Optional: for PDF/HTML report generation
+# weasyprint>=52.5
+
+# Development
+pytest>=7.0.0
+pytest-cov>=4.0.0

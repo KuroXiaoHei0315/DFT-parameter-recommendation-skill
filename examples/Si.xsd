@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="18.1" WrittenBy="DFT-parameter-recommendation Example">
+  <AtomisticTreeRoot ID="1" NumProperties="10" NumChildren="1" Name="Si">
+    <SymmetrySystem ID="2" Mapping="3" Children="4,5" Name="Si">
+      <SpaceGroup ID="3" Name="FD-3M" AVector="5.431,0,0" BVector="0,5.431,0" CVector="0,0,5.431"
+                  ITNumber="227" System="Cubic" LongName="F 4/D -3 2/M" Class="m -3 m"/>
+      <MappingFamily ID="6" NumImageMappings="2">
+        <IdentityMapping ID="7" Element="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="8">
+          <Atom3d ID="8" Mapping="7" Parent="2" Name="Si1" Components="Si" XYZ="0,0,0"/>
+        </IdentityMapping>
+        <ImageMapping ID="9" Element="1,0,0,0.25,0,1,0,0.25,0,0,1,0.25" MappedObjects="10">
+          <Atom3d ID="10" Mapping="9" Parent="2" Name="Si2" Components="Si" XYZ="0.25,0.25,0.25"/>
+        </ImageMapping>
+      </MappingFamily>
+    </SymmetrySystem>
+  </AtomisticTreeRoot>
+</XSD>

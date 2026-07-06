@@ -1,0 +1,16 @@
+﻿{
+  "_comment": "DFT-parameter-recommendation 配置文件模板。复制为 config.local.json 覆盖默认值。",
+  "api": {
+    "user_agent": "DFT-parameter-recommendation/1.0 (mailto:your@email.com)",
+    "timeout": 15,
+    "openalex_max_results": 20,
+    "crossref_max_results": 10
+  },
+  "paths": {
+    "output_dir": "./output",
+    "references_dir": "./references"
+  },
+  "validation": {
+    "max_conflicts_before_halt": 3
+  }
+}
