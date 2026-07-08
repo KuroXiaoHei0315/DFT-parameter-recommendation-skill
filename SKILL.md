@@ -294,7 +294,7 @@ user-invocable: true
 
 `[DFT-Parameter-Recommendation] | [AFP Architecture] | [v1.0.0]`
 
-**欢迎使用「DFT-parameter-recommendation V1.0.0（融合版）」**
+**欢迎使用「DFT-parameter-recommendation V1.0.0」**
 
 我是集**文献检索与采集**与 **DFT 参数抽取与验证**于一体的全栈工具。
 
